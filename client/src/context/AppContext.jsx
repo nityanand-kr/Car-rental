@@ -3,7 +3,7 @@ import axios from 'axios'
 import {toast} from 'react-hot-toast'
 import { useNavigate } from "react-router-dom";
 
-axios.defaults.baseURL = import.meta.env.VITE_BASE_URL | https://car-rental-c2f6.vercel.app/
+axios.defaults.baseURL = import.meta.env.VITE_BASE_URL
 
 export const AppContext = createContext();
 
